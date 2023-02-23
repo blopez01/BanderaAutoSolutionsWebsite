@@ -1,11 +1,48 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet,
+} from "react-router-dom";
+import Home from "./Routes/Home";
+import Careers from "./Routes/Careers";
+import Contact from "./Routes/Contact";
+import ErrorPage from "./Routes/ErrorPage";
+
+const AppLayout = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
+};
+
+const router = createBrowserRouter([
+  {
+    element: <AppLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "careers",
+        element: <Careers />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-    </div>
+    <RouterProvider router={router} />
   );
 }
 
