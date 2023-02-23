@@ -3,14 +3,12 @@ import Navbar from './Components/Navbar/Navbar';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet,
 } from "react-router-dom";
 import Home from "./Routes/Home";
 import Careers from "./Routes/Careers";
 import Contact from "./Routes/Contact";
-import ErrorPage from "./routes/ErrorPage";
+import ErrorPage from "./Routes/ErrorPage";
 
 const AppLayout = () => {
   return (
