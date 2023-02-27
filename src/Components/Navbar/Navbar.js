@@ -4,14 +4,15 @@ import { MenuItems } from './MenuItems'
 import './Navbar.css'
 
 class Navbar extends Component {
-    state = { active: false }
+    state = { menuActive: false, pageActive: false }
+    //TODO: pageActive highlights current page's nav item
 
     handleClick = () => {
-        this.setState({active: !this.state.active})
+        this.setState({menuActive: !this.state.menuActive})
     }
     
     closeMobileMenu = () => {
-        this.setState({active: false})
+        this.setState({menuActive: false})
     }
 
     render () {
@@ -21,17 +22,17 @@ class Navbar extends Component {
                     <h1>Logo</h1>
                 </Link>
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.active ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    <i className={this.state.menuActive ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul className={this.state.active ? 'nav-menu active' : 'nav-menu'}>
+                <ul className={this.state.menuActive ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
                             
                             <li key={index}>
                                 <NavLink
                                 to={`/${item.url}`}
-                                className={({ active }) =>
-                                    item.shortName + (active ? " activated" : "")
+                                className={({ menuActive }) =>
+                                    item.shortName + (menuActive ? " activated" : "")
                                 }
                                 onClick={this.closeMobileMenu}
                                 >

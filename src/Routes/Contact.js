@@ -1,10 +1,14 @@
 import React from "react";
+import '../Components/PageIntro/PageIntro.css'
 
 function Contact() {
     return (
-        <div className="contact">
-            <h1>Contact</h1>
+        <>
+        <div className ="page-intro-container contact">
+            <h1>Contact us</h1>
+            <p>Let's get in touch</p>
         </div>
+        </>
     );
 }
 
