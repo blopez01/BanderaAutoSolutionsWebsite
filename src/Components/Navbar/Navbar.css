@@ -37,7 +37,7 @@
     height: 100%;
   }
   
-  .activated {
+.nav-links.activated {
     color: #09bef0;
   }
 
@@ -78,7 +78,7 @@
     .nav-menu.active {
         background: gray;
         left: 0;
-        opacity: 1;
+        opacity: 0.8;
         transition: all 0.5s ease;
         z-index: 1;
     }
