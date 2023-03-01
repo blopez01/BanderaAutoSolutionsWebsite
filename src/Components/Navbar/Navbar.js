@@ -6,6 +6,7 @@ import './Navbar.css'
 class Navbar extends Component {
     state = { menuActive: false, pageActive: false }
     //TODO: pageActive highlights current page's nav item
+    //TODO: Adjust logo sizing
 
     handleClick = () => {
         this.setState({menuActive: !this.state.menuActive})
@@ -19,7 +20,7 @@ class Navbar extends Component {
         return(
             <nav className='NavItems'>
                 <Link to="/" className="navbar-logo" onClick={this.closeMobileMenu}>
-                    <h1>Logo</h1>
+                <img src='/images/Logo-2-White.png' width="220" height="60"/>
                 </Link>
                 <div className='menu-icon' onClick={this.handleClick}>
                     <i className={this.state.menuActive ? 'fas fa-times' : 'fas fa-bars'}></i>

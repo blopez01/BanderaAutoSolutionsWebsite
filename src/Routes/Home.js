@@ -1,5 +1,6 @@
 import React from "react";
 import '../Components/PageIntro/PageIntro.css'
+import Footer from "../Components/Footer/Footer";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <h1>Got in a wreck?</h1>
             <p>We've got you covered</p>
         </div>
+        <Footer/>
         </>
     );
 }
