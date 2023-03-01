@@ -1,5 +1,6 @@
 import React from "react";
 import '../Components/PageIntro/PageIntro.css'
+import Footer from "../Components/Footer/Footer";
 
 function Contact() {
     return (
@@ -8,6 +9,7 @@ function Contact() {
             <h1>Contact us</h1>
             <p>Let's get in touch</p>
         </div>
+        <Footer/>
         </>
     );
 }
