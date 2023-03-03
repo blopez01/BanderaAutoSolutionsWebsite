@@ -1,5 +1,5 @@
 .NavItems {
-    background: rgb(78,78,80);
+    background: #242424;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
   }
 
 .nav-links:hover {
-    background-color: aquamarine;
+    background-color:royalblue;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -78,7 +78,7 @@
     }
 
     .nav-menu.active {
-        background: gray;
+        background-color: #242424;
         left: 0;
         opacity: 0.8;
         transition: all 0.5s ease;
@@ -93,7 +93,7 @@
     }
 
     .nav-links:hover {
-        background-color: aquamarine;
+        background-color: royalblue;
         border-radius: 0;
     }
 

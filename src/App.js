@@ -5,9 +5,9 @@ import {
   RouterProvider,
   Outlet,
 } from "react-router-dom";
-import Home from "./Routes/Home";
-import Careers from "./Routes/Careers";
-import Contact from "./Routes/Contact";
+import Home from "./Routes/Home/Home";
+import Careers from "./Routes/Careers/Careers";
+import Contact from "./Routes/Contact/Contact";
 import ErrorPage from "./Routes/ErrorPage";
 
 const AppLayout = () => {

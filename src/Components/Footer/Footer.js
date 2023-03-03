@@ -23,7 +23,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src='/images/Logo-2-White.png' width="220" height="60"/>
+            <img src='/images/Logo-2-White.png' alt='logo' width="220" height="60"/>
             </Link>
           </div>
           <small class='website-rights'>Bandera Auto Solutions © 2023</small>
