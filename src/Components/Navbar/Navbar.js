@@ -19,7 +19,7 @@ class Navbar extends Component {
         return(
             <nav className='NavItems'>
                 <Link to="/" className="navbar-logo" onClick={this.closeMobileMenu}>
-                <img src='/images/Logo-2-White.png' width="220" height="60"/>
+                <img src='/images/Logo-2-White.png' alt='logo' width="220" height="60"/>
                 </Link>
                 <div className='menu-icon' onClick={this.handleClick}>
                     <i className={this.state.menuActive ? 'fas fa-times' : 'fas fa-bars'}></i>
