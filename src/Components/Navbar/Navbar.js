@@ -6,7 +6,6 @@ import './Navbar.css'
 class Navbar extends Component {
     state = { menuActive: false, pageActive: false }
     //TODO: pageActive highlights current page's nav item
-    //TODO: Adjust logo sizing
 
     handleClick = () => {
         this.setState({menuActive: !this.state.menuActive})
