@@ -16,9 +16,9 @@
     padding: 0 50px;
 }
 .services-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: white;
-    margin-bottom: 64px;
+    margin-bottom: 54px;
 }
 .services-card {
     background-color: white;
@@ -27,20 +27,78 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    min-height: 340px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2 ease-in-out;
-    height: 400px;
+}
+.services-card.middle {
+    min-height: 400px;
 }
 .services-card-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 .services-card-description {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+}
+.map-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    background-color: #010606;
+    padding-bottom: 30px;
+}
+.map-title {
+    font-size: 3.5rem;
+    color: white;
+    margin: 34px 34px;
+    text-align: center;
+}
+.map-card {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2 ease-in-out;
+}
+.map-card-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.map-card-title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.map-box {
+    background-color: blue;
+    width: 600px;
+    height: 600px;
+}
+.map-card-description {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.map-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 0 50px;
 }
 @media screen and (max-width: 960px) {
     .services-container {
@@ -60,6 +118,24 @@
         
     }
     .services-card-description {
-    
+        font-size: 1.5rem;
+    }
+    .map-title {
+        font-size: 1.9rem;
+    }
+    .map-box {
+        width: 100%;
+        min-height: 600px;
+    }
+    .map-wrapper {
+        padding: 0 20px;
+    }
+    .map-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .map-card-content-wrapper {
     }
 }
