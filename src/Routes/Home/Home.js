@@ -2,10 +2,10 @@ import React from "react";
 import '../../Components/PageIntro/PageIntro.css'
 import Footer from "../../Components/Footer/Footer";
 import './Home.css';
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import Map from "../../Components/Map/Map";
 
 function Home() {
-    //TODO: fix map box styling, add map api
+    
     return (
         <>
             <div className ="page-intro-container home">
@@ -37,7 +37,7 @@ function Home() {
                 <div className="map-wrapper">
                     <div className="map-card">
                         <div className="map-box">
-
+                            <Map />
                         </div>
                         <div className="map-card-content-wrapper">
                         <h2 className="map-card-title">Give us a visit</h2>
