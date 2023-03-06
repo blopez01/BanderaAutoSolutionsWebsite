@@ -6,35 +6,35 @@ function Footer() {
   //TODO: Adjust logo sizing
   return (
     <div className='footer-container'>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2><Link to='/'>Home</Link></h2>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2><Link to='/careers'>Careers</Link></h2>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2><Link to='/contact'>Contact Us</Link></h2>
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             <img src='/images/Logo-2-White.png' alt='logo' width="220" height="60"/>
             </Link>
           </div>
-          <small class='website-rights'>Bandera Auto Solutions © 2023</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Bandera Auto Solutions © 2023</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
           </div>
         </div>

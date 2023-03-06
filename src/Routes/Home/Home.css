@@ -84,9 +84,12 @@
     margin-top: 10px;
 }
 .map-box {
-    background-color: blue;
     width: 600px;
     height: 600px;
+}
+.map-box-content {
+    width: auto;
+    height: auto;
 }
 .map-card-description {
     font-size: 1.2rem;
