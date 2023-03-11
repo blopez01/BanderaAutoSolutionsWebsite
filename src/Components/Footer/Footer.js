@@ -3,7 +3,16 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-  //TODO: Adjust logo sizing
+  //TODO: Adjust logo sizing, add these links back
+  /*
+
+          <div className='footer-link-items'>
+            <h2><Link to='/careers'>Careers</Link></h2>
+          </div>
+          <div className='footer-link-items'>
+            <h2><Link to='/contact'>Contact Us</Link></h2>
+          </div>
+  */
   return (
     <div className='footer-container'>
       <div className='footer-links'>
@@ -12,10 +21,7 @@ function Footer() {
             <h2><Link to='/'>Home</Link></h2>
           </div>
           <div className='footer-link-items'>
-            <h2><Link to='/careers'>Careers</Link></h2>
-          </div>
-          <div className='footer-link-items'>
-            <h2><Link to='/contact'>Contact Us</Link></h2>
+            <h2><Link to='/faq'>FAQ</Link></h2>
           </div>
         </div>
       </div>

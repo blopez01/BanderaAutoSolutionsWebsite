@@ -20,6 +20,10 @@
   .page-intro-container.contact {
     background: url('/public/images/talk1.jpeg') center center/cover no-repeat;
   }
+
+  .page-intro-container.faq {
+    background: url('/public/images/tacoma1.jpeg') center center/cover no-repeat;
+  }
   .page-intro-container > h1 {
     color: #fff;
     font-size: 100px;

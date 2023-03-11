@@ -9,6 +9,7 @@ import Home from "./Routes/Home/Home";
 import Careers from "./Routes/Careers/Careers";
 import Contact from "./Routes/Contact/Contact";
 import ErrorPage from "./Routes/ErrorPage";
+import FAQ from './Routes/FAQ/FAQ';
 
 const AppLayout = () => {
   return (
@@ -28,6 +29,8 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      /*
+      TODO: add these pages back
       {
         path: "careers",
         element: <Careers />,
@@ -35,6 +38,11 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      */
+      {
+        path: "faq",
+        element: <FAQ />,
       }
     ],
   },
