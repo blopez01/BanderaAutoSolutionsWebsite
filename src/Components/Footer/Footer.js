@@ -3,7 +3,7 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-  //TODO: Adjust logo sizing, add these links back
+  //TODO: add these links back
   /*
 
           <div className='footer-link-items'>
@@ -36,11 +36,27 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/BanderaAutoSolutions/'
               target='_blank'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
+            </Link>
+            <Link
+              className='social-icon-link google'
+              to='https://www.google.com/search?q=bandera+auto+solutions&rlz=1C1CHBF_enUS788US788&oq=bandera+auto+solutions&aqs=chrome.0.35i39j46i175i199i512j0i22i30j69i60l2j69i61.2649j0j7&sourceid=chrome&ie=UTF-8#lrd=0x865c0415389e0ca5:0xf479b294fb0f59e7,1,,,,'
+              target='_blank'
+              aria-label='Google'
+            >
+              <i class="fa-brands fa-google" />
+            </Link>
+            <Link
+              className='social-icon-link yelp'
+              to='https://www.yelp.com/biz/bandera-auto-solutions-bandera#reviews'
+              target='_blank'
+              aria-label='Yelp'
+            >
+              <i class="fa-brands fa-yelp" />
             </Link>
           </div>
         </div>
