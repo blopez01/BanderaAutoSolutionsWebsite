@@ -5,13 +5,22 @@ export const MenuItems = [
         shortName: 'nav-links'
     },
     {
-        title: 'Careers',
-        url: 'careers',
-        shortName: 'nav-links'
-    },
-    {
-        title: 'Contact Us',
-        url: 'contact',
+        title: 'FAQ',
+        url: 'faq',
         shortName: 'nav-links'
     }
 ]
+/*
+TODO: add these pages back
+{
+    title: 'Careers',
+    url: 'careers',
+    shortName: 'nav-links'
+},
+{
+    title: 'Contact Us',
+    url: 'contact',
+    shortName: 'nav-links'
+},
+
+*/
