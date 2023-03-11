@@ -8,37 +8,60 @@
 }
 
 .accordion {
-    width: 80%;
-
+    width: 60%;
+    padding: 0 50px;
+    margin: 30px auto;
 }
 
 .accordion-item {
     background-color: white;
+    border-radius: 10px;
     margin-bottom: 5px;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 .accordion-title-box {
-    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.accordion-title-box:hover {
+    background-color: royalblue;
+    transition: all 0.5s ease;
+}
+.accordion-title-box i {
+    margin-right: 5px;
 }
 
 .accordion-title {
-
+    margin-left: 10px;
 }
+
 .accordion-content-box {
-    max-height: 0px;
+    max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
+    transition: all 0.5s ease;
 }
 .accordion-content-box.show {
     height: auto;
+    max-height: 1000px;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
+    transition: all 0.5s ease;
 }
 
 .accordion-content {
+    font-family: 'Questrial', sans-serif;
+    margin: 5px 30px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 960px) {
+    .accordion {
+        width: 90%;
+    }
 }
