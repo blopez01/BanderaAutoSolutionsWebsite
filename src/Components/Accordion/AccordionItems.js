@@ -13,7 +13,7 @@ export const AccordionItems = [
     },
     {
         question: "What is a supplement?",
-        answer: "A supplement is an additional estimate for any damage that has been found after taking a closer look at your vehicle. Often times damage will be hidden by parts on the outside of the vehicle, and once those parts are removed we can see if any additional internal damage needs to be repaired. We create a supplement and submit it to your insurance provider for approval, after which we can purchase parts and repair the damage."
+        answer: "A supplement is a report of any additional damage that has been found after taking a closer look at your vehicle. Often times damage will be hidden by parts on the outside of the vehicle, and once those parts are removed we can see if any additional internal damage needs to be repaired. We create a supplement and submit it to your insurance provider for approval, after which we can purchase parts and repair the damage."
     },
     {
         question: "How long will it take to repair my vehicle?",
