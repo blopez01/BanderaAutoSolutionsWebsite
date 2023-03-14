@@ -50,6 +50,11 @@ function Home() {
                             Monday - Friday<br></br>
                             8am - 5:30pm
                         </p>
+                        <h2 className="map-card-title">Let's talk</h2>
+                        <p className="map-card-description">
+                            (830) 796-7201<br></br>
+                            banderaautosolutions@gmail.com
+                        </p>
                         </div>
                     </div>
                 </div>
