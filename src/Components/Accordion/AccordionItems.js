@@ -9,7 +9,7 @@ export const AccordionItems = [
     },
     {
         question: "What is an estimate?",
-        answer: "An estimate is a written report of how much damage your vehicle has sustained, and what needs to be repaired to make it safe to drive again. We can create these in-house or your insurance provider will make one for us."
+        answer: "An estimate is a written report of approximately how much damage your vehicle has sustained, and what needs to be repaired to make it safe to drive again. We can create these in-house or your insurance provider will make one for us."
     },
     {
         question: "What is a supplement?",
