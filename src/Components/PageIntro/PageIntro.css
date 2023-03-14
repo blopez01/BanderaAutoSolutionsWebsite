@@ -10,7 +10,7 @@
   }
 
   .page-intro-container.home {
-    background: url('/public/images/garage1.jpg') center center/cover no-repeat;
+    background: url('/public/images/front1.JPG') center center/cover no-repeat;
   }
   
   .page-intro-container.careers {
@@ -34,8 +34,7 @@
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'Questrial', sans-serif;
   }
 
   /* img {

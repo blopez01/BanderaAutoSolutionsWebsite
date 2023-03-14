@@ -7,8 +7,8 @@ function FAQ() {
     return (
         <>
             <div className ="page-intro-container faq">
-                <h1>FAQ</h1>
-                <p>Frequently Asked Questions</p>
+                <h1 className="faq-title">FAQ</h1>
+                <p className="faq-title-desc">Frequently Asked Questions</p>
             </div>
             <Accordion />
             <Footer/>

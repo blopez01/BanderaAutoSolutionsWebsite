@@ -48,7 +48,7 @@ function Footer() {
               target='_blank'
               aria-label='Google'
             >
-              <i class="fa-brands fa-google" />
+              <i className="fa-brands fa-google" />
             </Link>
             <Link
               className='social-icon-link yelp'
@@ -56,7 +56,7 @@ function Footer() {
               target='_blank'
               aria-label='Yelp'
             >
-              <i class="fa-brands fa-yelp" />
+              <i className="fa-brands fa-yelp" />
             </Link>
           </div>
         </div>
