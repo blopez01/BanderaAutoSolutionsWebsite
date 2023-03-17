@@ -11,7 +11,7 @@ function Accordion() {
             <div className='accordion'>
             {AccordionItems.map((item, index) => {
                     return (
-                        <div className='accordion-item'>       
+                        <div className='accordion-item' key={index}>       
                             <div className='accordion-title-box' onClick={() => active === index ? setActive(null) : setActive(index)}>
                                 <h2 className='accordion-title'>{item.question}</h2>
                                 <i className={active === index ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down'}></i>
