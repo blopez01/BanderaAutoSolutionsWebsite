@@ -3,7 +3,7 @@ import '../../Components/PageIntro/PageIntro.css'
 import Footer from "../../Components/Footer/Footer";
 import './Home.css';
 import Map from "../../Components/Map/Map";
-import wheel from "./wheel.png"
+import hail from "./hail.svg"
 
 function Home() {
     
@@ -16,20 +16,21 @@ function Home() {
             <div className="services-container">
                 <h1 className="services-title">Serving Bandera County for over 15 years</h1>
                 <div className="services-wrapper">
+                    
+                <div className="services-card">
+                        <i className="fa-solid fa-car-burst fa-8x"/>
+                        <h2 className="services-card-title">Collision Repair</h2>
+                        <p className="services-card-description">Our highly trained staff with over 40 years of experience in the auto body shop industry will guarantee your vehicle will look spotless after any type of collision</p>
+                    </div>
+                    <div className="services-card middle">
+                        <img src={hail} alt="hail" width="148px" height="148px" />
+                        <h2 className="services-card-title">Paintless Dent Removal</h2>
+                        <p className="services-card-description">Got hail damage? Schedule an appointment with our staff to repair your small dents without the cost of a standard refinish</p>
+                    </div>
                     <div className="services-card">
                         <i className="fa-solid fa-truck-monster fa-8x"/>
                         <h2 className="services-card-title">Truck Accessories</h2>
                         <p className="services-card-description">Protect your vehicle with a large selection of grill guards, front and rear bumper replacements, headache racks and more</p>
-                    </div>
-                    <div className="services-card middle">
-                        <i className="fa-solid fa-car-burst fa-8x"/>
-                        <h2 className="services-card-title">Collision Repair</h2>
-                        <p className="services-card-description">Our highly trained staff with over 40 years of experience in the auto body shop industry will guarantee your car will look spotless after any type of collision</p>
-                    </div>
-                    <div className="services-card">
-                        <img src={wheel} alt="wheel" width="148px" height="148px" />
-                        <h2 className="services-card-title">Tires</h2>
-                        <p className="services-card-description">Order new tires for your vehicle and we'll install them to ensure your replacements are a great fit</p>
                     </div>
                 </div>
             </div>
