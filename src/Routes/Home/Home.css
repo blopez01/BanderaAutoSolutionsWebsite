@@ -33,13 +33,13 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    min-height: 340px;
+    min-height: 400px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2 ease-in-out;
 }
 .services-card.middle {
-    min-height: 400px;
+    min-height: 420px;
 }
 .services-card-title {
     font-size: 2.2rem;
@@ -113,9 +113,10 @@
     align-items: center;
     padding: 0 50px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
     .services-container {
-        height: 1300px;
+        height: 1500px;
+        clear: both;
     }
     .services-wrapper {
         grid-template-columns: 1fr;
@@ -144,6 +145,7 @@
     .map-wrapper {
         padding: 0 20px;
         width: 100%;
+        max-width: 960px;
     }
     .map-card {
         display: flex;

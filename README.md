@@ -69,6 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### Make new Docker Image
+
+docker build -t bas .
+
 ### Building new Docker image revision
 
 https://codelabs.developers.google.com/codelabs/cloud-run-deploy
+
+### Nodemailer with React
+
+https://www.youtube.com/watch?v=NIqti2oEm20
