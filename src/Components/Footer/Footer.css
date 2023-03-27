@@ -72,7 +72,6 @@
     align-items: center;
     padding: 0 10px;
     width: 60px;
-    margin-bottom: 16px;
     width: 220px;
   }
   
@@ -95,15 +94,16 @@
   }
   
   @media screen and (max-width: 960px) {
-    .footer-links {
-      padding-top: 2rem;
-    }
-
     .footer-link-wrapper {
       flex-direction: column;
     }
   
     .social-media-wrap {
       flex-direction: column;
+      margin: 20px auto 0 auto;
+    }
+
+    .website-rights {
+      padding: 20px 0;
     }
   }
