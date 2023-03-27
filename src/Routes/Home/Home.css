@@ -10,6 +10,7 @@
     background-color: #010606;
     position: relative;
     clear: both;
+    padding-top: 50px;
 }
 .services-wrapper {
     max-width: 1000px;
@@ -23,7 +24,7 @@
 .services-title {
     font-size: 3.5rem;
     color: white;
-    margin-bottom: 54px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .services-card {
@@ -115,8 +116,9 @@
 }
 @media screen and (max-width: 1200px) {
     .services-container {
-        height: 1500px;
+        height: auto;
         clear: both;
+        padding: 54px 0 0px;
     }
     .services-wrapper {
         grid-template-columns: 1fr;
@@ -126,8 +128,9 @@
     .services-title {
         font-size: 2rem;
     }
-    .services-card {
-        
+    .services-card, .services-card.middle {
+        min-height: 0px;
+        height: auto;
     }
     .services-card-title {
         
