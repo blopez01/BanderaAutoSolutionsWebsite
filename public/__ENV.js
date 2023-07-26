@@ -1,0 +1,1 @@
+window.__ENV = {"REACT_APP_GOOGLE_MAPS_API_KEY":"AIzaSyANZk7khNzeVqOA3xz4ahSzdRZipLu1IiQ","REACT_APP_TEST":"this is a local test","REACT_APP_TEST2":"this is a different test"};
