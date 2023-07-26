@@ -1,14 +1,15 @@
 import React from "react";
 import '../../Components/PageIntro/PageIntro.css'
 import Footer from "../../Components/Footer/Footer";
+import env from "@beam-australia/react-env";
 
 function Test() {
 
-    const testVar = process.env.REACT_APP_TEST;
-
+    
     return (
         <>
-            {testVar}
+            {env("TEST")}
+            {env("TEST2")}
             <Footer/>
         </>
     );
