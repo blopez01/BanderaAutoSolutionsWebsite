@@ -1,11 +1,10 @@
 import { React, useMemo } from 'react'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
-import env from "@beam-australia/react-env";
 import './Map.css';
 
 function Map() {
     const {isLoaded} =  useLoadScript({
-        googleMapsApiKey: env("GOOGLE_MAPS_API_KEY"),
+        googleMapsApiKey: 'AIzaSyANZk7khNzeVqOA3xz4ahSzdRZipLu1IiQ',
     });
 
     if (!isLoaded) return <div>Loading...</div>;

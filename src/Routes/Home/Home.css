@@ -2,7 +2,6 @@
     font-family: 'Questrial', sans-serif;
 }
 .services-container {
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;

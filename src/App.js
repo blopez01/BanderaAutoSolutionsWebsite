@@ -10,7 +10,6 @@ import Careers from "./Routes/Careers/Careers";
 import Contact from "./Routes/Contact/Contact";
 import ErrorPage from "./Routes/ErrorPage";
 import FAQ from './Routes/FAQ/FAQ';
-import Test from './Routes/Test/Test';
 
 const AppLayout = () => {
   return (
@@ -29,10 +28,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "test",
-        element: <Test />,
       },
       /*
       TODO: add these pages back
