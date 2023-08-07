@@ -1,0 +1,36 @@
+.contact-form-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+  }
+  
+  .contact-form-body {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }  
+  .contact-form-wrapper {
+    width: 40%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+
+    label {
+      font-family: 'Questrial', sans-serif;
+    }
+    input {
+      font-family: 'Questrial', sans-serif;
+    }
+    
+  }
+  @media screen and (max-width: 1200px) {
+    .contact-form-wrapper {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-form-wrapper {
+      width: 80%;
+    }
+  }
