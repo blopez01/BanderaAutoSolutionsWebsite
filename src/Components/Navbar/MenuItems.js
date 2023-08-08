@@ -8,7 +8,12 @@ export const MenuItems = [
         title: 'FAQ',
         url: 'faq',
         shortName: 'nav-links'
-    }
+    },
+    {
+        title: 'Contact Us',
+        url: 'contact',
+        shortName: 'nav-links'
+    },
 ]
 /*
 TODO: add these pages back
@@ -17,10 +22,6 @@ TODO: add these pages back
     url: 'careers',
     shortName: 'nav-links'
 },
-{
-    title: 'Contact Us',
-    url: 'contact',
-    shortName: 'nav-links'
-},
+
 
 */

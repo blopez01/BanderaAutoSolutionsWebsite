@@ -23,6 +23,9 @@ function Footer() {
           <div className='footer-link-items'>
             <h2><Link to='/faq'>FAQ</Link></h2>
           </div>
+          <div className='footer-link-items'>
+            <h2><Link to='/contact'>Contact Us</Link></h2>
+          </div>
         </div>
       </div>
       <section className='social-media'>

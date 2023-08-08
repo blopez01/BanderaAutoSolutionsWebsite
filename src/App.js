@@ -35,11 +35,11 @@ const router = createBrowserRouter([
         path: "careers",
         element: <Careers />,
       },
+      */
       {
         path: "contact",
         element: <Contact />,
       },
-      */
       {
         path: "faq",
         element: <FAQ />,
