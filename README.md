@@ -19,7 +19,7 @@ You may also see any lint errors in the console.
 ## Create new production build
 
 #### `firebase deploy`
-Navigate to the root folder of the downloaded project and run 'firebase deploy' in the console
+Navigate to the root folder of the downloaded project and run 'firebase deploy' in the console\
 Changes will be reflected within a few minutes
 
 ## Deploy new Firebase functions
@@ -31,7 +31,7 @@ Navigate to ./functions and run 'firebase deploy --only functions' in the consol
 
 #### `docker build -t bas .`
 #### `docker run -dp 127.0.0.1:3000:3000 bas`
-Navigate to the root folder of the project and run the first command in the console
-After the image finishes building, run the second command in the console to spin up the container
-You can now view the project at [http://localhost:3000](http://localhost:3000)
+Navigate to the root folder of the project and run the first command in the console\
+After the image finishes building, run the second command in the console to spin up the container\
+You can now view the project at [http://localhost:3000](http://localhost:3000)\
 Read [Official Docker Docs](https://docs.docker.com/get-started/02_our_app/) for additional details
