@@ -1,6 +1,12 @@
 .home-title-desc {
     font-family: 'Questrial', sans-serif;
 }
+.home-title-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
 .services-container {
     display: flex;
     flex-direction: column;

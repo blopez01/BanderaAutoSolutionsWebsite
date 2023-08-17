@@ -4,14 +4,29 @@ import Footer from "../../Components/Footer/Footer";
 import './Home.css';
 import Map from "../../Components/Map/Map";
 import hail from "./hail.svg"
+import { Link } from 'react-router-dom';
+
+import Button from '@mui/material/Button';
+
 
 function Home() {
-    
+
     return (
         <>
             <div className ="page-intro-container home">
                 <h1 className="home-title">Got in a wreck?</h1>
                 <p className="home-title-desc">We've got you covered</p>
+                <div className="home-title-button">
+                <Link to='/contact'>
+                    <Button variant="contained"       
+                    sx={{
+                        fontFamily: 'Questrial',
+                        fontSize: '1.3rem',
+                        backgroundColor: '#2676bf'
+                    }}>
+                    Schedule an Appointment</Button>
+                </Link>
+                </div>
             </div>
             <div className="services-container">
                 <h1 className="services-title">Serving Bandera County for over 15 years</h1>
